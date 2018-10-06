@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+  </head>
+  <body>
+
+    <h1>Answer the following with the best of your knowledge!</h1>
+    <p id="score"></p>
+    <p id="question"></p>
+    <script type=text/javascript>
+        var quiz =   [
+                        {q1:"there are 3500 seconds in one hour?", a1:"f"},
+                        {q2: "USA refers to United States of America?", a2: "t"},
+                        {q3:"the first name of Obama is Jim?", a3:"f"},
+                        {q4:"Dubai is a country", a4:"f"},
+                        {q5:"Istanbul is the capital of Turkey", a5:"f"},
+                        {q6:"Greenland is an independent country", a6:"f"},
+                        {q7:"there are many types of fish in the dead sea", a7:"f"},
+                        {q8:"fish have a huge memories", a8:"f"},
+                        {q9:"coding is difficult", a9:"t"},
+                        {q10:"california is 2 hours ahead of Hawaii",a10:"t"}
+
+    ]
+    console.log("answers"+quiz[i]);
+
+for (i=0,i<quiz.length,i++){
+    document.getElementById("quiz").innerHTML=quiz[i].q[i]
+}
+</script>
+</body>
+</html>
